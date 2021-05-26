@@ -2,7 +2,7 @@
 int main(){
 //program menghitung gaji karyawan
 //Deklarasi
- int gaji,jam;
+ int gaji,jam,tunjangan,lembur,uanglemburan,jml_gaji;
  char no,nama;
  
 // Deskripsi Algoritma
@@ -14,17 +14,18 @@ int main(){
  printf("Masukan Jam Lembur    = ");scanf("%d",&jam);
  printf("\n");
  printf("Gaji pokok = Rp. %d\n",gaji);
- int tunjangan;
+ 
  tunjangan=0.15*gaji;
  printf("Tunjangan = Rp. %d\n",tunjangan);
- int lembur,duitlemburan;
+
  lembur=0.03*gaji;
  printf("Uang Lemburan Per-Jam = Rp. %d\n",lembur);
- duitlemburan=lembur*jam;
- printf("Total Uang Lemburan = Rp. %d\n",duitlemburan);
- int total;
- total=gaji+tunjangan+duitlemburan;
- printf("Total Gaji = Rp. %d\n",total);
+ 
+ uanglemburan=lembur*jam;
+ printf("Total Uang Lemburan = Rp. %d\n",uanglemburan);
+
+ jml_gaji=gaji+tunjangan+uanglemburan;
+ printf("Total Gaji = Rp. %d\n",jml_gaji);
 
 return 0;
 }
