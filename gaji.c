@@ -126,7 +126,7 @@ switch (jabatan){
 	break;
 	default:
 		printf("Jabatan yang anda masukkan tidak terdaftar");
-}
+
  
 return 0;
 }
