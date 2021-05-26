@@ -1,4 +1,3 @@
-#include<stdio.h>
 //program menghitung gaji karyawan
 
 int main(){
